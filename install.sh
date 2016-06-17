@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# use the tmp dir
+cd $OPENSHIFT_TMP_DIR
+
 # get opencv pkg
 wget http://pkgs.fedoraproject.org/repo/pkgs/opencv/OpenCV-2.4.3.tar.bz2/c0a5af4ff9d0d540684c0bf00ef35dbe/OpenCV-2.4.3.tar.bz2
 tar xvf OpenCV-2.4.3.tar.bz2
