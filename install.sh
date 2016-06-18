@@ -10,7 +10,7 @@ rm OpenCV-2.4.3.tar.bz2
 cd OpenCV-2.4.3/
 rm -r 3rdparty android doc data ios samples apps
 rm README
-# comment lines from 448 to 472
+# comment lines from 448 to 472 not to compile deleted sources
 sed -i '448,472 s/^/#/' CMakeLists.txt
 # turn off regression and performance tests
 sed -i '155,156 s/ ON/ OFF/' CMakeLists.txt
