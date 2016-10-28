@@ -1,6 +1,6 @@
 # OpenCV on Openshift cartridge
 
-To avoid quota limitations on online openshift cartridge, this script can be used on the python-2.7 template.
+To avoid quota limitations on online openshift cartridge, this script can be used on the DIY template.
 
 - Connect to the dartridge via ssh.
 - run:
