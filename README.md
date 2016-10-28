@@ -5,7 +5,7 @@ To avoid quota limitations on online openshift cartridge, this script can be use
 - Connect to the dartridge via ssh.
 - run:
 ```bash
-wget https://raw.githubusercontent.com/ammarnajjar/opencv_on_openshift_online/master/install.sh && bash install.sh
+wget https://raw.githubusercontent.com/paulux84/opencv_on_openshift_online/master/install.sh && nohup bash install.sh > opencvInstall.log &
 ```
 
 Test importing opencv:
